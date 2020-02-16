@@ -1,0 +1,90 @@
+
+h1 {
+  color:rgb(37, 145, 199);
+  font-family: 'Oswald', sans-serif;
+  font-size: 50pt;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color:rgb(37, 145, 199);
+    font-size: 25pt;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+em {
+  color: grey;
+}
+
+h3 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 11pt;
+}
+
+.Title {
+  width: 600px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.About {
+  width: 600px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.Links a {
+  color: rgb(37, 145, 199);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.Links a:hover {
+  color: grey;
+}
+
+.Skills li {
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.Activities li {
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.Contact {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+.Contact h2 {
+  font-family: 'Oswald', sans-serif;
+  color:rgb(37, 145, 199);
+  font-size: 20pt;
+}
+
+.Contact th {
+  text-align: center;
+  margin: auto;
+}
+
+.Contact td {
+  text-align: center;
+  color: grey;
+  padding: 10px;
+  margin: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
