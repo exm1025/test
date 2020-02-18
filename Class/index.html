@@ -9,23 +9,27 @@
     <meta name="author" content="Beth Mosch">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, BM, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+    <meta name="viewport" content="initial-scale=1">
+
   </head>
   <!-- This is the body of my website -->
   <body>
 <!-- This is my header -->
 <header>
-  <nav>
-    <ul>
-      <li> <a href="https://www.apple.com/">Apple</a> </li>
+  <nav class="navigation">
+    <ul class="horizontal">
+      <li> <a href="Class6-1/transitions.html">Class 6.1</a> </li>
       <li> <a href="https://www.disney.com/">Disney</a> </li>
       <li> <a href="https://www.moschmedia.com/">Mosch Media</a> </li>
     </ul>
   </nav>
 </header>
 
-    <section>
-<!-- to create sidebars -->
-<aside>
+<aside class="sidebar">
+  <h3>Side Bar</h3>
   <ul>
     <li>item 1</li>
     <li>item 2</li>
@@ -38,9 +42,14 @@
   </ol>
 </aside>
 
+<div class="container">
+    <section>
+        <h1>Title</h1>
+<!-- to create sidebars -->
+
+
 <!-- We use articles for magazine and posts -->
-<article>
-  <h1>Title</h1>
+<article id="dog">
   <h2>Subtitle</h2>
   <p>
     <!-- This is for best practices -->
@@ -53,26 +62,28 @@
     Nulla consequat massa quis enim. Donec pede justo.
 <strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit."</strong>
 </p>
-<img src="img/IMG_9630.jpg" alt="Lilly Pads" width="350px">
+<img src="img/IMG_9630.jpg" alt="Lilly Pads" width="350">
 </article>
 
     </section>
+</div>
+
 
 <table>
   <tr>
     <!-- these aret able headers -->
     <th>Human Years</th>
     <th>Dog Years</th>
-    <tr>
-      <tr>
+  </tr>
+        <tr>
         <!-- These are table cells -->
         <td>1</td>
         <td>7</td>
       </tr>
-    </tr>
 </table>
 
     <section>
+      <h2>Contact</h2>
       <address>
         <ul>
           <li>Name: Beth Mosch</li>
