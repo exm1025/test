@@ -17,15 +17,15 @@ width: 80%;
 .basicGrid
 {
   width: 80%;
-  height: 100vh;
+  height: 300vh;
   margin: auto;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   /* The value % will be relative to the size of the parent element,
    if it doesn't have any parent it will take the size of the screen */
   display: grid;
   /* THIS DEFINES THE HEIGHT OF YOUR ROWS */
-  grid-template-rows: 20% 20%;
+  grid-template-rows: 20% 20% 20%;
   /* 1 fr will be relative to the width size of your row, and the amounts of columns you have */
   grid-template-columns:1fr 1fr 1fr;
 
