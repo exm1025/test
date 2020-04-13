@@ -17,6 +17,7 @@ $(document).ready(function(){  //Beginning of your document
         $("#Body").removeClass("light", false);
 });
 
+
 ///           MENU          ////
 
 $("nav ul li:first-child").click(function(){
@@ -61,6 +62,8 @@ $("nav ul li:nth-child(5)").click(function(){
   $("main .re").show();
   $("main .ov").hide();
 });
+
+
 
 $("#tink").mouseover(function() {
   $("footer p").html("Click Me!");

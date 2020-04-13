@@ -168,6 +168,12 @@ hr
   margin: auto;
 }
 
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 .images {
   margin: 10px;
   text-align: center;
