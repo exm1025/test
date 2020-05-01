@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164782445-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164782445-1');
+</script>
+    <meta charset="utf-8">
+    <title>jQuerySlider</title>
+    <meta name="author" content="Beth Mosch">
+    <meta name="content" content="This site will tell you about the clothing brand Venom Collective">
+    <meta name="keywords" content="Venom Collective, clothes, shopping, streetwear">
+    <link rel="stylesheet" media="only screen and (min-width: 501px)" href="css/venom.css">
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="css/mobilevenom.css">
+    <!-- The viewport meta tag won't let the browser to scale down my website -->
+    <meta name="viewport" content="initial-scale=1">
+
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="CSS/animate.css">
+    <!-- Jquery script source -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <!-- stylesheet and pluging for Fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- This is the link for the slider Masonry -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
+  <!-- This is my own js file to initiate the SLIDER -->
+  <script src="js/venom.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/wyj8ckw.css">
+<script src="https://kit.fontawesome.com/338d88feea.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+
+
+    <div id="pagepiling">
+
+        <div class="section video-wrap">
+            <video src="files/venom.mp4" autoplay="true" loop="true"></video>
+            <img src="files/whitelogo.png" alt="Venom Collective">
+            <div class="animated pulse">
+              <i class="fas fa-arrow-down fa-3x"></i>
+            </div>
+        </div>
+
+
+        <div class="section about">
+          <img id="palm" src="files/palmtree.jpg" alt="Palm Tree">
+          <h1>ABOUT US</h1>
+          <img id="snake" src="files/snake.png" alt="Snake Logo" width="100">
+          <div class="box">
+            <p> Venom Collective is a streetwear fashion company. We design clothing with thoughtful messages
+            behind them. Each month, we release certain exclusive designs that are only available for a limited time.
+            These designs are never restocked. Our goal as a company is to become a household name when thinking of high-end streetwear. Venom is designed for everyone who is aspiring and working towards their dreams
+            in life and believe in creativity and innovation.</p>
+          </div>
+        </div>
+
+      <div class="section clothes pp-scrollable">
+        <h1>OUR PRODUCTS</h1>
+        <div class="productGrid">
+          <div>
+            <a data-fancybox="products" data-caption="White Hoodie"  href="files/whitehoodie.jpg"> <img src="files/whitehoodie.jpg" alt="White Hoodie"> </a>
+            <a data-fancybox="products" data-caption="Backpack"  href="files/backpack.png"> <img src="files/backpack.png" alt="Backpack"> </a>
+          </div>
+          <div>
+            <a data-fancybox="products" data-caption="'The Snake Pit' tee back side"  href="files/snakepit.jpg"> <img src="files/snakepit.jpg" alt="Snake Pit back"> </a>
+          </div>
+          <div>
+            <a data-fancybox="products" data-caption="White Beanie"  href="files/whitebeanie.png"> <img src="files/whitebeanie.png" alt="White Beanie"> </a>
+              <a data-fancybox="products" data-caption="'The Snake Pit' tee front side"  href="files/blacktee.jpg"> <img src="files/blacktee.jpg" alt="Snake Pit front"> </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="section founder pp-scrollable">
+        <div class="founderGrid">
+          <div>
+            <img src="files/beth.JPG" alt="Beth" width=300 >
+          </div>
+          <div class="info">
+            <h1>The Founder</h1>
+            <h2>Beth Mosch</h2>
+            <p> Beth Mosch is currently a sophomore at the University of Miami.
+            She is majoring in Motion Pictures on the Production Track with minors
+            in Entrepreneurship and Media Management. She has been doing photography
+          for nearly 10 years and has over 5 years of expereince in video production
+          and editing. Beth hopes to help inspire the next generation of leaders through
+          her work in film.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section funding">
+          <h1>JOIN THE TEAM</h1>
+          <div class="fundGrid">
+            <div class="partner">
+              <h2>Ambassadors</h2>
+              <div class="animated bounce">
+                <i class="fas fa-handshake fa-9x"></i>
+              </div>
+              <p>Work for a brand you love.
+                We provide great discounts based on the number of sales our ambassadors make.</p>
+            </div>
+
+            <div class="fund">
+              <h2>Investors</h2>
+              <div class="animated bounce">
+                <i class="fas fa-piggy-bank fa-9x"></i>
+              </div>
+              <p>Want to become an investor? We're listening. Scroll below and email us about business inqueries.</p>
+            </div>
+
+
+            <div class="resources">
+              <h2 id="resources">Resources</h2>
+              <div class="animated bounce">
+                <i class="fas fa-people-carry fa-9x"></i>
+              </div>
+              <p>Have something else to offer? We are always open to new opportunities. Scroll down to email us.¬</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section contact">
+        <img src="files/miami.jpg" alt="Miami Skyline">
+          <h1>CONTACT</h1>
+            <h2>Business Inquiries:</h2>
+            <h3>contact@venom.com</h3>
+          <div class="social">
+            <ul>
+              <li> <a href="https://www.instagram.com/venom.collective/"> <i class="fab fa-instagram fa-9x"></i> </a> </li>
+              <li> <a href="https://www.facebook.com/venomcollective/"> <i class="fab fa-facebook-square fa-9x"></i> </a> </li>
+              <li> <a href="https://twitter.com/CollectiveVenom"> <i class="fab fa-twitter-square fa-9x"></i> </a> </li>
+            </ul>
+          </div>
+
+      </div>
+
+     </div>  <!-- The end of pagePiling div plugin -->
+
+  </body>
+</html>
